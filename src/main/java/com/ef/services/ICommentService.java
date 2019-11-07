@@ -5,7 +5,7 @@ import com.ef.entities.Comment;
 /**
  * @author Ariel Morel
  */
-interface CommentService {
+public interface ICommentService {
 
     /**
      * persist the comment object

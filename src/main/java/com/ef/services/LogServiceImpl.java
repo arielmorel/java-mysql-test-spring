@@ -15,7 +15,7 @@ import java.util.List;
  * @author Ariel Morel
  */
 @Service
-public class LogServiceImpl implements LogService {
+public class LogServiceImpl implements ILogService {
     @Autowired
     private LogRepository logRepository;
 

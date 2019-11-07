@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
  * @author Ariel Morel
  */
 @Service
-public class CommentServiceImpl implements CommentService {
+public class CommentServiceImpl implements ICommentService {
     @Autowired
     private CommentRepository commentRepository;
 
